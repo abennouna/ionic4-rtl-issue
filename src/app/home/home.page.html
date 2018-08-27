@@ -7,6 +7,44 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+  <p>
+    Current direction:
+    <b>{{ currentDirection }}</b>
+  </p>
+
+  <ion-button (click)="toggleDirection()">
+    Toggle between Left-to-Right and Right-To-Left modes
+  </ion-button>
+
+  <div class="wrapper" margin-top margin-bottom padding-top padding-bottom margin-start>
+    A div that has a margin-start attribute. Here's the content box:
+
+    <div class="content">
+      Content box
+    </div>
+  </div>
+
+  <div class="wrapper" margin-top margin-bottom padding-top padding-bottom margin-start padding-start>
+    A div that has both margin-start and padding-start attributes. Here's the content box:
+
+    <div class="content">
+      Content box
+    </div>
+  </div>
+
+  <div class="wrapper" margin-top margin-bottom padding-top padding-bottom margin-end>
+    A div that has a margin-end attribute. Here's the content box:
+
+    <div class="content">
+      Content box
+    </div>
+  </div>
+
+  <div class="wrapper" margin-top margin-bottom padding-top padding-bottom margin-end padding-end>
+    A div that has both margin-end and padding-end attributes. Here's the content box:
+
+    <div class="content">
+      Content box
+    </div>
+  </div>
 </ion-content>
