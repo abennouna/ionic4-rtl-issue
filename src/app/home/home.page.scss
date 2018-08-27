@@ -1,11 +1,13 @@
 :host {
   .wrapper {
-    border: solid 1px;
+    background-image: linear-gradient(to bottom, #f0f5ff 0, #f0f5ff 100%),
+      linear-gradient(to bottom, #c3e0b7 0, #c3e0b7 100%);
+    background-clip: content-box, padding-box;
 
     .content {
-      border: dotted 1px;
-      background: var(--ion-color-tertiary);
-      line-height: 2;
+      background-color: #f5f7fa;
+      border: 1px solid #e4e8f0;
+      padding: 5px;
     }
   }
 }
