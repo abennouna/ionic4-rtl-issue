@@ -13,7 +13,22 @@
   </p>
 
   <ion-button (click)="toggleDirection()">
-    Toggle between Left-to-Right and Right-To-Left modes
+    <ion-icon slot="start" name="code-working"></ion-icon>
+    Toggle LTR / RTL
+  </ion-button>
+
+  <ion-button>
+    <ion-icon slot="start" name="star"></ion-icon>
+    Left Icon
+  </ion-button>
+
+  <ion-button>
+    Right Icon
+    <ion-icon slot="end" name="star"></ion-icon>
+  </ion-button>
+
+  <ion-button>
+    <ion-icon slot="icon-only" name="star"></ion-icon>
   </ion-button>
 
   <div class="wrapper" margin-top margin-bottom padding-top padding-bottom margin-start>
